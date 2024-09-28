@@ -939,6 +939,18 @@ footer a {
         background: rgba(255, 255, 255, 0.1);
         margin: 10px 0 22px;
     }
+
+    .education-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-list {
+        grid-template-columns: repeat(autofill, 1fr);
+    }
+
+    .certificates-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
     
 }
 
