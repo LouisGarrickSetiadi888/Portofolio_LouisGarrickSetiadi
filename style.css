@@ -527,6 +527,12 @@ header.sticky .nav-bar {
     margin-bottom: 20px;
 }
 
+.projects-card .repo-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
 .projects-card .learn-more-btn {
     color: var(--third-color);
     cursor: pointer;
@@ -539,6 +545,43 @@ header.sticky .nav-bar {
 
 .projects-card:hover .learn-more-btn i {
     transform: translateX(10px);
+}
+
+.projects-card .pembatas {
+    margin-left: auto;
+}
+
+.projects-card .view-repo-btn {
+    color: white;
+    background: var(--second-color);
+    font-weight: 750;
+    border: 3px solid var(--second-color);
+    padding: 5px 10px;
+    margin-top: -5px;
+    border-radius: 10px;
+}
+
+.projects-card .view-repo-btn:hover {
+    transform: scale(1.03);
+    background-color: var(--hover-color);
+    border-color: var(--hover-color);
+}
+
+.projects-card .view-static-btn {
+    color: white;
+    background: var(--second-color);
+    font-weight: 750;
+    border: 3px solid var(--second-color);
+    padding: 5px 10px;
+    margin-top: -5px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.projects-card .view-static-btn:hover {
+    transform: scale(1.03);
+    background-color: var(--hover-color);
+    border-color: var(--hover-color);
 }
 
 .projects-modal {
@@ -1007,5 +1050,10 @@ footer a {
         font-size: 0.5em;
     }
 
+    .projects-card .repo-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
 
 }
