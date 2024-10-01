@@ -995,5 +995,17 @@ footer a {
         margin-bottom: 80px;
     }
 
+    .projects-modal-body h3 {
+        font-size: 1.3em;
+    }
+
+    .projects-modal-body h4 {
+        font-size: 0.6em;
+    }
+
+    .projects-modal-body p {
+        font-size: 0.5em;
+    }
+
 
 }
