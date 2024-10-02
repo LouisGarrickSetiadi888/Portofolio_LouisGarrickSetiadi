@@ -1060,4 +1060,8 @@ footer a {
         gap: 50px;
     }
 
+    .projects-card .repo-btn a{
+        font-size: 0.4em;
+    }
+
 }
