@@ -230,6 +230,12 @@ header.sticky .nav-bar {
     line-height: 70px;
 }
 
+.home-container .info a{
+    font-size: medium;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .home-container .info h2 {
     line-height: 85px;
     font-size: 70px;
@@ -254,6 +260,10 @@ header.sticky .nav-bar {
     margin-bottom: 20px;
 }
 
+.download-btn a{
+    font-size: medium;
+}
+
 .btn {
     background: var(--second-color);
     color: #fff;
@@ -264,6 +274,8 @@ header.sticky .nav-bar {
     padding: 20px 30px;
     letter-spacing: 1px;
     border-radius: 10px;
+    grid-template-columns: repeat(2, 1fr);
+
 }
 
 .btn:hover {
