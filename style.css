@@ -1075,5 +1075,21 @@ footer a {
     .projects-card .repo-btn a{
         font-size: 0.4em;
     }
+    
+    .certificates-list .img-card {
+        height: 100px;
+    }
 
+    .certificates-list .img-card .info h3 {
+        font-size: 0.5em;
+    }
+    
+    .certificates-list .img-card .info span {
+        font-size: 0.5em;
+    }
+
+    .certificates-list .img-card:hover .overlay {
+        width: auto;
+        height: auto;
+    }
 }
